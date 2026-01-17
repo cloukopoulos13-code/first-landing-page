@@ -15,14 +15,15 @@ header, section, footer{
 
 .container{
     margin: 0px 10rem;
-    
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 nav{
-    border: 2px solid pink;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7rem;
+    padding-top: 1rem;
 }
 
 ul{
@@ -37,5 +38,27 @@ a{
 }
 
 .logo{
-    padding-right: 1em;
+    margin-right: 1em;
+}
+
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    min-height: 250px;
+}
+
+.hero-text{
+    text-align: left;
+    border: 2px solid pink;
+    flex: 1;
+    
+}
+
+.hero-image{
+    background-color: grey;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
