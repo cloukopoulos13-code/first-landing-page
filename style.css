@@ -15,7 +15,11 @@ header, section, footer{
 
 .container{
     margin: 0px 10rem;
-    /* border: 2px solid red; */
+    padding: 2rem 0 8rem 0;
+}
+
+.hero-block .container{
+    padding-top: 0;
 }
 
 nav{
@@ -50,7 +54,6 @@ a{
 
 .hero-text{
     text-align: left;
-    border: 2px solid pink;
     flex: 1;
     
 }
