@@ -59,6 +59,16 @@ a{
     
 }
 
+.sub-text{
+    margin-bottom: 0.5rem;
+}
+
+button{
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 10px;
+}
+
 .hero-image{
     background-color: grey;
     display: flex; 
@@ -129,4 +139,9 @@ quote{
     padding: 2rem 5rem;
     background-color: #3882F6;
     border-radius: 8px;
+    gap: 2rem;
+}
+
+footer{
+    padding: 2rem 0;
 }
