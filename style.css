@@ -10,7 +10,6 @@ body{
 
 header, section, footer{
     width: 100%;
-    border: 2px solid rgb(242, 0, 255);
 }
 
 .container{
@@ -140,8 +139,12 @@ quote{
     background-color: #3882F6;
     border-radius: 8px;
     gap: 2rem;
+    flex: 1 0 auto;
 }
 
 footer{
-    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
 }
