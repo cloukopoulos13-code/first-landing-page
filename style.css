@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    text-align: center;
+}
+
+header, section, footer{
+    width: 100%;
+}
+
+.container{
+    margin: 0px 100px;
+    padding: 0px 2rem;
+    border: 2px solid red;
+}
