@@ -97,15 +97,24 @@ a{
 .quote-block .container{
     border: 2px solid red;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 8rem;
 }
 
 .quote-box{
-    border: 2px solid green;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 300px;
+    width: 50%;
+    text-align: right;
+    gap: 1rem;
+}
+
+quote{
+    text-align: left;
+}
+
+.quote-name{
+    text-align: right;
 }
