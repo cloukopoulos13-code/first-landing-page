@@ -95,7 +95,6 @@ a{
 }
 
 .quote-block .container{
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,4 +116,17 @@ quote{
 
 .quote-name{
     text-align: right;
+}
+
+.cta-block .container{
+    padding-top: 8rem;
+}
+
+.cta-graphic{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 2rem 5rem;
+    background-color: #3882F6;
+    border-radius: 8px;
 }
